@@ -1,0 +1,60 @@
+/* Add gradient background & center */
+.profile-background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    padding: 20px;
+  }
+  
+  .profile-page {
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-details p {
+    margin: 8px 0;
+  }
+  
+  .profile-edit input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-edit button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-edit button:last-child {
+    background: #dc3545;
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+  }
+  
+  .order-list li {
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
